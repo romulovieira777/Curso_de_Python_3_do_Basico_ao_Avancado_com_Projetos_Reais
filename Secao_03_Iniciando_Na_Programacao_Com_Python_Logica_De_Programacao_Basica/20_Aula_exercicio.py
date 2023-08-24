@@ -7,3 +7,5 @@ elif primeiro_valor < segundo_valor:
     print(f'seguno_valor {segundo_valor} é maior do que o primeiro_valor {primeiro_valor}')
 else:
     print(f'O primeiro_valor {primeiro_valor} é igual ao segundo_valor {segundo_valor}')
+if 1 and 1:
+    print(True and 1 and False)
