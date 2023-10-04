@@ -12,8 +12,8 @@ string = 'ABCDE'    # 5 caracteres (len)
 
 print(bool([]))
 
-#          0     1        2            3     4
-#         -5    -4       -3           -2    -1
+#         0     1        2             3     4
+#        -5    -4       -3            -2    -1
 lista = [123, True, 'Felicity Smoak', 10.5, []]
 lista[-3] = 'Oliver Queen'
 
