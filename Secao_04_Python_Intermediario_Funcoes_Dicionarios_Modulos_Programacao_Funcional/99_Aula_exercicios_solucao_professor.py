@@ -21,7 +21,7 @@ perguntas = [
 qtd_acertos = 0
 
 for pergunta in perguntas:
-    print('Pergunta', pergunta['Pergunta'])
+    print('Pergunta:', pergunta['Pergunta'])
     print()
 
     opcoes = pergunta['Opções']
@@ -50,6 +50,8 @@ for pergunta in perguntas:
         print('Acertou 👍')
     else:
         print('Errou ❌')
+
+    print()
 
 print('Você acertou', qtd_acertos)
 print('de', len(perguntas), 'perguntas.')
